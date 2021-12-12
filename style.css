@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(47, 47, 126);
+    padding-top: 10%;
+    position: relative;
+}
+
+form{
+    background-color: rgb(12, 12, 31);
+    padding-top: 5%;
+    padding-left: 5%;
+
+}
+label{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+     'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+      Verdana, sans-serif;
+      font-size: large;
+      font-weight: lighter;     
+}
+input,select{
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+    width: 40%;
+    height: 2rem;
+    border-radius: 5px;
+}
+#rads input{
+    
+    margin-top: 1.5%;
+    margin-bottom: 3%;
+    width: 5%;
+    height: 2rem;
+    border-radius: 5px;
+}
+#checks{
+    position: relative;
+}
+#checks input{
+    
+   
+    width: 3%;
+    height: 2rem;
+    left: .5%;
+    margin: 0 0 0 0 ;
+   font-size: large;
+}
+button{color: yellow;
+width:  50%;
+background-color: green;
+}
